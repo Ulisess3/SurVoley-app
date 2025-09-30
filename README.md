@@ -30,6 +30,7 @@ Comandos Git:
 <git add .>   --> Prepara todos los archivos modificados para commit.
 ----------------------------------------------------------------------------------------------------------------
 <git clone <URL>> --> Clona un repositorio remoto a tu máquina local.
+<git fetch>	--> Trae cambios del remoto sin fusionarlos automáticamente.
 <git pull>    --> Trae cambios del repositorio remoto y los fusiona con tu rama local.
 <git commit -m "mensaje"> --> Crea un commit con los cambios staged y un mensaje descriptivo.
 <git push>    --> Envía tus commits locales al repositorio remoto.
@@ -46,6 +47,5 @@ Comandos Git:
 <git reset --hard>    --> Reinicia la rama actual, descartando todos los cambios no commitados.
 <git clean -fd>	--> Elimina archivos y directorios no rastreados (sin backup).
 <git remote -v>	--> Muestra los repositorios remotos configurados.
-<git fetch>	--> Trae cambios del remoto sin fusionarlos automáticamente.
 <git stash>	--> Guarda temporalmente cambios locales para limpiar el working tree.
 <git stash pop>	--> Recupera los cambios guardados con stash y los aplica de nuevo.
