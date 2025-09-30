@@ -1,0 +1,94 @@
+# =========================
+# Node.js y dependencias
+# =========================
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+package-lock.json
+yarn.lock
+.pnpm-debug.log*
+
+# =========================
+# Logs
+# =========================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# =========================
+# Build / distribución
+# =========================
+dist/
+build/
+frontend/.expo/
+frontend/.expo-shared/
+backend/dist/
+.cache/
+.vite/
+.next/
+.nuxt/
+.output/
+.parcel-cache/
+.public/
+
+# =========================
+# Runtime / temp
+# =========================
+pids
+*.pid
+*.seed
+*.pid.lock
+*.tsbuildinfo
+*.swp
+*.DS_Store
+Thumbs.db
+.node_repl_history
+
+# =========================
+# IDE / editor
+# =========================
+.vscode/
+.vscode-test/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# =========================
+# Environment / secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Testing / coverage
+# =========================
+coverage/
+.lcov
+.nyc_output/
+.grunt
+.bower_components/
+.report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# =========================
+# Misc / frameworks
+# =========================
+bower_components/
+.lock-wscript
+build/Release/
+web_modules/
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# =========================
+# Frameworks / Expo / React Native
+# =========================
+.expo/
+.expo-shared/
